@@ -1,0 +1,39 @@
+.meals {
+    width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin: 60px auto;
+}
+
+.meal{
+    width: 400px;
+    height: 150px;
+    overflow: hidden;
+    margin: 15px;
+    text-align:left;
+    position:relative;
+}
+.meal h4{padding: 5px;
+          text-transform: capitalize;
+          color: var(--primary-color);}
+.meal p{
+    font-size: 0.9rem;
+      padding: 5px;
+      width: 65%;
+      color: #788799;
+}
+.meal img{
+    position: absolute;
+      width: 30%;
+      height: 80%;
+      top: 0;
+      right: 0;
+      object-fit: contain;
+      border-radius: 7px;
+}
+.meal span{
+    font-weight: bold;
+      color: var(--primary-bright);
+    padding:5px;
+}

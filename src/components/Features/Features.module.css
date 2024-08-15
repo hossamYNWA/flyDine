@@ -1,0 +1,39 @@
+.feature {
+    width: 260px;
+      height: 220px;
+      padding: 20px;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+    align-items:center;
+    border: 1px solid #c4ceda4f;
+    border-radius: 10px;
+    margin:15px
+}
+
+.feature h4{
+    font-size:1.4rem;
+    color:var(--primary-bright)
+}
+.feature p{
+        color: #848484;
+}
+
+.f_container {
+    width:100%;
+    text-align:center;
+    color:var(--primary-color);
+    padding: 25px 0;
+    min-height:400px;
+}
+.f_container h2 {
+    font-size:3rem;
+    margin:45px auto;
+}
+.f_wrapper {
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    flex-flow:wrap;
+    align-items:center;
+}
